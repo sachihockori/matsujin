@@ -44,15 +44,16 @@ export default async function Page() {
           <div>
             <h2 className={styles.sectionTitleEn}>Business</h2>
             <p className={styles.sectionTitleJa}>事業内容</p>
-            <h3 className={styles.topH3}>Jina</h3>
+            <h3 className={styles.topH3}>卸小売・加工事業</h3>
             <p className={styles.sectionDescription}>
-              1917年創業、フェルト・リボン・毛氈の卸小売を行っています。<br></br>
-              日本製の上質な素材にこだわり、当店だけの特別なお色味やサイズで、みなさまのものづくりをお手伝いしています。「フェルトでこんなことがしたい！」というご相談も大歓迎です。どうぞお気軽にお問い合わせください。
+              大正6年創業。フェルト、リボン、毛氈（もうせん）の卸売・小売から、ご要望に応じた加工まで幅広く承っています。<br></br>
+              日本製の上質な素材にこだわり、当店限定の特別なカラーやオリジナルサイズを展開。長年培ったノウハウで、みなさまのものづくりを形にするお手伝いをいたします。「フェルトを特殊な形状にカット・加工したい」「こんな用途で使いたい」といったご相談も大歓迎です。個人・法人問わず、どうぞお気軽にお問い合わせください。
             </p>
 
-            <h3 className={styles.topH3}>エムテック</h3>
+            <h3 className={styles.topH3}>クリエイティブ事業</h3>
             <p className={styles.sectionDescription}>
-              パンフレットなどのグラフィックデザイン制作から、コーポレートサイトや最先端のWebシステム構築まで幅広くお任せいただけます。デザイン性と機能性を高次元で両立させ、お客様のビジネス課題を解決する最適なデジタルソリューションをご提供します。
+              ホームページ・Webサイトのコンサルティングから、コンテンツ企画、デザイン、CMS導入、サーバー保守、セキュリティ対策まで、一気通貫のワンストップサービスを提供します。<br></br>
+              また、行政機関のサイトに求められる「ウェブアクセシビリティ（日本産業規格 JIS X 8341-3:2016）」への対応、診断・改修も承っております。
             </p>
 {/* 
             <ButtonLink href="/business">もっとみる</ButtonLink>
@@ -92,8 +93,12 @@ export default async function Page() {
                 <dd className={styles.infoDescription}>株式会社松甚</dd>
               </dl>
               <dl className={styles.info}>
-                <dt className={styles.infoTitle}>設立</dt>
-                <dd className={styles.infoDescription}>1917年</dd>
+                <dt className={styles.infoTitle}>創業</dt>
+                <dd className={styles.infoDescription}>1917年2月</dd>
+              </dl>
+                            <dl className={styles.info}>
+                <dt className={styles.infoTitle}>資本金</dt>
+                <dd className={styles.infoDescription}>10,000,000円</dd>
               </dl>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>本社所在地</dt>
@@ -104,16 +109,8 @@ export default async function Page() {
                 </dd>
               </dl>
               <dl className={styles.info}>
-                <dt className={styles.infoTitle}>支社所在地</dt>
-                <dd className={styles.infoDescription}>
-                  〒520-0044
-                  <br />
-                  滋賀県大津市京町３丁目３番24号
-                </dd>
-              </dl>
-              <dl className={styles.info}>
-                <dt className={styles.infoTitle}>代表取締役</dt>
-                <dd className={styles.infoDescription}>松本 侑一郎</dd>
+                <dt className={styles.infoTitle}>主要取引銀行</dt>
+                <dd className={styles.infoDescription}>みずほ銀行　難波支店、三井住友銀行　御堂筋支店</dd>
               </dl>
 
 
