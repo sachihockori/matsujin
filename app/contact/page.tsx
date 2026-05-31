@@ -4,12 +4,27 @@ import ContactForm from '@/app/_components/ContactForm';
 export default function Page() {
   return (
     <div className={styles.container}>
+     {/* 
       <p className={styles.text}>
         ご質問、ご相談は下記フォームよりお問い合わせください。
         <br />
         内容確認後、担当者より通常3営業日以内にご連絡いたします。
       </p>
+       */}
+      {/*
       <ContactForm />
+      */}
+      
+      <div
+      dangerouslySetInnerHTML={{
+        __html: `
+          <script src="https://js-na2.hsforms.net/forms/embed/246301753.js" defer></script>
+          <div class="hs-form-frame" data-region="na2" data-form-id="75e60c2d-df88-424c-92ba-509af4153f11" data-portal-id="246301753"></div>
+        `
+      }}
+    />
+
+
     </div>
   );
 }

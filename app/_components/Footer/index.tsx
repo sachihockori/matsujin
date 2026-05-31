@@ -4,6 +4,7 @@ import styles from './index.module.css';
 export default function Footer() {
   return (
     <footer className={styles.footer}>
+     {/* 
       <nav className={styles.nav}>
         <ul className={styles.items}>
           <li className={styles.item}>
@@ -20,7 +21,8 @@ export default function Footer() {
           </li>
         </ul>
       </nav>
-      <p>© SIMPLE. All Rights Reserved 2023</p>
+       */}
+      <p>© Matsujin. All Rights Reserved 2026</p>
     </footer>
   );
 }

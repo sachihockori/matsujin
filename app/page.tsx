@@ -13,14 +13,15 @@ export default async function Page() {
     <>
       <section className={styles.top}>
         <div>
-          <h1 className={styles.title}>テクノロジーの力で世界を変える</h1>
+          <h1 className={styles.title}>松甚 <small>matsujin</small></h1>
           <p className={styles.description}>
-            私たちは市場をリードしているグローバルテックカンパニーです。
+            since 1917
           </p>
         </div>
         <Image
           className={styles.bgimg}
           src="/img-mv.jpg"
+          //src="/fv.jpg"
           alt=""
           width={3600}
           height={1200}
@@ -43,12 +44,19 @@ export default async function Page() {
           <div>
             <h2 className={styles.sectionTitleEn}>Business</h2>
             <p className={styles.sectionTitleJa}>事業内容</p>
+            <h3 className={styles.topH3}>Jina</h3>
             <p className={styles.sectionDescription}>
-              当社は、次世代テクノロジーの研究開発・製造・販売を行う革新的な企業です。
-              <br />
-              AI、ロボット工学、自律システムなど、幅広い分野でのソリューション提供を通じて、社会の進化と未来の創造に貢献します。
+              1917年創業、フェルト・リボン・毛氈の卸小売を行っています。<br></br>
+              日本製の上質な素材にこだわり、当店だけの特別なお色味やサイズで、みなさまのものづくりをお手伝いしています。「フェルトでこんなことがしたい！」というご相談も大歓迎です。どうぞお気軽にお問い合わせください。
             </p>
+
+            <h3 className={styles.topH3}>MNET Lab inc.</h3>
+            <p className={styles.sectionDescription}>
+              パンフレットなどのグラフィックデザイン制作から、コーポレートサイトや最先端のWebシステム構築まで幅広くお任せいただけます。デザイン性と機能性を高次元で両立させ、お客様のビジネス課題を解決する最適なデジタルソリューションをご提供します。
+            </p>
+{/* 
             <ButtonLink href="/business">もっとみる</ButtonLink>
+ */}
           </div>
           <Image
             className={styles.businessImg}
@@ -59,6 +67,7 @@ export default async function Page() {
           />
         </div>
       </section>
+
       <div className={styles.aboutus}>
         <section className={styles.section}>
           <div className={styles.horizontal}>
@@ -72,37 +81,59 @@ export default async function Page() {
             <div>
               <h2 className={styles.sectionTitleEn}>About Us</h2>
               <p className={styles.sectionTitleJa}>私たちについて</p>
+
+{/* 
               <p className={styles.sectionDescription}>
                 「テクノロジーの力で世界を変える」をミッションに掲げ、日々活動をしています。
               </p>
+ */}
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>社名</dt>
-                <dd className={styles.infoDescription}>株式会社Simple</dd>
+                <dd className={styles.infoDescription}>株式会社松甚</dd>
               </dl>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>設立</dt>
-                <dd className={styles.infoDescription}>2023年4月</dd>
+                <dd className={styles.infoDescription}>1917年</dd>
               </dl>
               <dl className={styles.info}>
-                <dt className={styles.infoTitle}>所在地</dt>
+                <dt className={styles.infoTitle}>本社所在地</dt>
                 <dd className={styles.infoDescription}>
-                  〒000-0000
+                  〒540-0017
                   <br />
-                  東京都渋谷区渋谷1-1-1
+                  大阪市中央区松屋町住吉５番８号
                 </dd>
               </dl>
               <dl className={styles.info}>
-                <dt className={styles.infoTitle}>代表者</dt>
-                <dd className={styles.infoDescription}>鈴木 太郎</dd>
+                <dt className={styles.infoTitle}>支社所在地</dt>
+                <dd className={styles.infoDescription}>
+                  〒520-0044
+                  <br />
+                  滋賀県大津市京町３丁目３番24号
+                </dd>
               </dl>
+              <dl className={styles.info}>
+                <dt className={styles.infoTitle}>代表取締役</dt>
+                <dd className={styles.infoDescription}>松本 侑一郎</dd>
+              </dl>
+
+
+{/* 
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>資本金</dt>
                 <dd className={styles.infoDescription}>1,000万円</dd>
               </dl>
+ */}
+
+
+             <div className={styles.ctbtn}><ButtonLink href="/contact" >お問い合わせはこちら</ButtonLink></div>
+             
             </div>
+
           </div>
         </section>
       </div>
+
+{/* 
       <section className={styles.section}>
         <div className={styles.horizontal}>
           <div>
@@ -124,6 +155,11 @@ export default async function Page() {
           />
         </div>
       </section>
+
+ */}
+
+     
+
     </>
   );
 }

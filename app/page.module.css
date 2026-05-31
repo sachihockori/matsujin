@@ -137,6 +137,16 @@
   border-radius: var(--border-radius);
 }
 
+/*自作*/
+.topH3{
+ font-size: 200%;
+}
+
+.ctbtn{
+ margin-top: 4rem;
+}
+/**/
+
 @media (max-width: 1000px) {
   .news {
     width: calc(100% - 160px);
