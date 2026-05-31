@@ -50,7 +50,7 @@ export default async function Page() {
               日本製の上質な素材にこだわり、当店だけの特別なお色味やサイズで、みなさまのものづくりをお手伝いしています。「フェルトでこんなことがしたい！」というご相談も大歓迎です。どうぞお気軽にお問い合わせください。
             </p>
 
-            <h3 className={styles.topH3}>MNET Lab inc.</h3>
+            <h3 className={styles.topH3}>エムテック</h3>
             <p className={styles.sectionDescription}>
               パンフレットなどのグラフィックデザイン制作から、コーポレートサイトや最先端のWebシステム構築まで幅広くお任せいただけます。デザイン性と機能性を高次元で両立させ、お客様のビジネス課題を解決する最適なデジタルソリューションをご提供します。
             </p>
